@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Wild Animals | Animal & Nature Facts</title>
 
     <style>
+
         * {
             box-sizing: border-box;
         }
@@ -20,7 +24,7 @@
             font-family: Arial, sans-serif;
             background: #eaf6ec;
             color: #183b20;
-            line-height: 1.7;
+            line-height: 1.6;
         }
 
         header {
@@ -32,17 +36,17 @@
 
         header h1 {
             margin: 0;
-            font-size: 32px;
+            font-size: 34px;
         }
 
         header p {
-            margin: 8px 0 0;
+            margin: 8px 0;
             font-size: 17px;
         }
 
         .back-button {
             display: inline-block;
-            margin-top: 18px;
+            margin-top: 15px;
             padding: 10px 20px;
             background: white;
             color: #14532d;
@@ -100,27 +104,64 @@
             cursor: zoom-in;
         }
 
-        .facts-section {
-            margin-top: 25px;
-            padding: 20px 25px;
+        .info-box {
+            margin-top: 22px;
+            padding: 18px 22px;
             background: #f1f8f2;
             border-left: 6px solid #2e7d32;
             border-radius: 12px;
         }
 
-        .facts-section h3 {
+        .info-box h3 {
             color: #1b5e20;
             margin-top: 0;
-            font-size: 22px;
+            margin-bottom: 10px;
+            font-size: 21px;
         }
 
-        .facts-section ul {
-            margin-bottom: 0;
+        .info-box ul {
+            margin: 0;
+            padding-left: 22px;
         }
 
-        .facts-section li {
-            margin-bottom: 12px;
+        .info-box li {
+            margin-bottom: 8px;
             font-size: 16px;
+        }
+
+        .food-box {
+            background: #fff8e8;
+            border-left: 6px solid #d99a00;
+        }
+
+        .food-box h3 {
+            color: #8a6200;
+        }
+
+        .size-box {
+            background: #eef5ff;
+            border-left: 6px solid #3976c6;
+        }
+
+        .size-box h3 {
+            color: #245a9c;
+        }
+
+        .size-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+
+        .size-item {
+            background: white;
+            padding: 10px 12px;
+            border-radius: 8px;
+            font-size: 15px;
+        }
+
+        .size-item strong {
+            color: #245a9c;
         }
 
         footer {
@@ -134,7 +175,7 @@
         @media (max-width: 700px) {
 
             header h1 {
-                font-size: 25px;
+                font-size: 26px;
             }
 
             .intro h2 {
@@ -150,26 +191,33 @@
                 font-size: 25px;
             }
 
-            .facts-section {
-                padding: 16px;
+            .info-box {
+                padding: 15px;
             }
 
-            .facts-section li {
+            .info-box li {
                 font-size: 15px;
             }
+
+            .size-grid {
+                grid-template-columns: 1fr;
+            }
+
         }
+
     </style>
+
 </head>
 
+
 <body>
+
 
 <header>
 
     <h1>🦁 Wild Animals</h1>
 
-    <p>
-        Discover amazing facts about the incredible animals of the wild!
-    </p>
+    <p>Discover amazing facts about the incredible animals of the wild!</p>
 
     <a href="index.html" class="back-button">
         ← Back to Categories
@@ -183,519 +231,1158 @@
     <h2>🌿 Explore the Wild</h2>
 
     <p>
-        Wild animals live in natural environments such as forests,
-        grasslands, mountains, deserts and wetlands. Each animal has
-        special features and behaviours that help it survive in its habitat.
+        Discover interesting facts, food habits, behaviour,
+        habitats, size and lifespan of some amazing wild animals.
     </p>
 
 </div>
 
 
-<!-- ===================================================== -->
 <!-- TIGER -->
-<!-- ===================================================== -->
 
 <section class="animal">
 
     <h2>🐯 Tiger</h2>
 
-    <img
-        src="tiger.jpg.jpeg"
-        alt="Tiger"
-        class="animal-image"
-    >
+    <img src="tiger.jpg.jpeg"
+         alt="Tiger"
+         class="animal-image">
 
-    <div class="facts-section">
+
+    <div class="info-box">
 
         <h3>🔬 Real Facts</h3>
 
         <ul>
 
-            <li>
-                The tiger is the largest living cat species in the world.
-            </li>
+            <li>Tigers are the largest members of the cat family.</li>
 
-            <li>
-                Tigers belong to the family Felidae, which includes other cats such as lions, leopards and domestic cats.
-            </li>
+            <li>Every tiger has a unique stripe pattern.</li>
 
-            <li>
-                Every tiger has a unique pattern of dark stripes, similar to how humans have unique fingerprints.
-            </li>
+            <li>Tigers are excellent swimmers.</li>
 
-            <li>
-                Tigers are powerful predators with strong muscles, sharp claws and large canine teeth.
-            </li>
+            <li>They are mostly active during early morning and evening.</li>
 
-            <li>
-                Unlike most domestic cats, tigers are excellent swimmers and often enter rivers, lakes and ponds.
-            </li>
-
-            <li>
-                Tigers usually hunt alone rather than living and hunting in large groups.
-            </li>
-
-            <li>
-                There are several tiger subspecies and populations, and their appearance can vary depending on their environment.
-            </li>
-
-            <li>
-                Tigers play an important role in ecosystems because they help control populations of other animals.
-            </li>
+            <li>Tigers usually live alone.</li>
 
         </ul>
 
     </div>
 
 
-    <div class="facts-section">
+    <div class="info-box">
 
-        <h3>🌍 Habitat & Lifestyle</h3>
+        <h3>🌍 Habitat</h3>
 
         <ul>
 
-            <li>
-                Tigers can live in different environments including forests, grasslands, mangrove forests and cold regions.
-            </li>
+            <li>Tigers live in forests, grasslands and mangrove areas.</li>
 
-            <li>
-                Their habitats provide cover for hiding, resting and approaching prey.
-            </li>
+            <li>They are found in parts of Asia.</li>
 
-            <li>
-                Tigers generally prefer areas where water is available because they need regular access to drinking water.
-            </li>
+            <li>They usually stay near water sources.</li>
 
-            <li>
-                They are mostly solitary animals and usually maintain their own territories.
-            </li>
+            <li>Dense vegetation helps them hide.</li>
 
-            <li>
-                A tiger's territory can be very large when food is widely spread across the landscape.
-            </li>
-
-            <li>
-                Tigers use scent markings, scratches and vocal sounds to communicate with other tigers.
-            </li>
-
-            <li>
-                Mother tigers spend a lot of time protecting and teaching their cubs important survival skills.
-            </li>
-
-            <li>
-                Tigers are most active during cooler parts of the day and may also become active at night.
-            </li>
+            <li>They need large areas to find food.</li>
 
         </ul>
 
     </div>
 
 
-    <div class="facts-section">
+    <div class="info-box food-box">
 
-        <h3>🍖 Food & Hunting</h3>
+        <h3>🍖 What Does a Tiger Eat?</h3>
 
         <ul>
 
-            <li>
-                Tigers are carnivores, meaning that meat forms the main part of their natural diet.
-            </li>
+            <li>Deer</li>
 
-            <li>
-                They may hunt animals such as deer, wild pigs, buffalo and other suitable prey depending on their habitat.
-            </li>
+            <li>Wild boar</li>
 
-            <li>
-                Tigers usually depend on stealth rather than chasing prey over very long distances.
-            </li>
+            <li>Buffalo</li>
 
-            <li>
-                Their striped coat helps break up their body shape among vegetation and shadows.
-            </li>
+            <li>Antelope</li>
 
-            <li>
-                Tigers use their powerful forelimbs and sharp claws to grab and control prey.
-            </li>
-
-            <li>
-                Their large canine teeth help them deliver a powerful bite.
-            </li>
-
-            <li>
-                Tigers may drag prey to a safer location before feeding so that they can eat with less disturbance.
-            </li>
-
-            <li>
-                The amount of food a tiger eats can vary depending on the size of its prey and how successful its hunt is.
-            </li>
+            <li>Other medium and large animals</li>
 
         </ul>
 
     </div>
 
 
-    <div class="facts-section">
+    <div class="info-box">
+
+        <h3>🧠 Behaviour</h3>
+
+        <ul>
+
+            <li>Tigers usually live alone.</li>
+
+            <li>They protect their territory.</li>
+
+            <li>They use scent marks to communicate.</li>
+
+            <li>They can swim very well.</li>
+
+            <li>They are patient hunters.</li>
+
+        </ul>
+
+    </div>
+
+
+    <div class="info-box">
 
         <h3>😂 Fun Facts</h3>
 
         <ul>
 
-            <li>
-                Tigers love water much more than most members of the cat family.
-            </li>
+            <li>No two tigers have exactly the same stripes.</li>
 
-            <li>
-                A tiger's stripes are found not only on its fur but also have a corresponding pattern on its skin.
-            </li>
+            <li>Tigers enjoy swimming in water.</li>
 
-            <li>
-                Tiger cubs are born with their eyes closed and depend completely on their mother during their early life.
-            </li>
+            <li>A tiger's stripes help it hide in vegetation.</li>
 
-            <li>
-                Tigers can make several different sounds including roars, growls, chuffs and warning calls.
-            </li>
+            <li>Tigers can make different sounds to communicate.</li>
 
-            <li>
-                A tiger's whiskers help it sense objects and understand its surroundings.
-            </li>
-
-            <li>
-                Tigers have large paws that help them move quietly through many types of terrain.
-            </li>
-
-            <li>
-                Some tigers have lighter coats, while rare colour variations can occur because of genetic differences.
-            </li>
-
-            <li>
-                Tigers are capable of swimming across rivers and other bodies of water.
-            </li>
+            <li>They have powerful legs and sharp claws.</li>
 
         </ul>
 
     </div>
 
 
-    <div class="facts-section">
+    <div class="info-box size-box">
 
-        <h3>❤️ Lifespan, Size & Special Ability</h3>
+        <h3>📏 Size & Lifespan</h3>
 
-        <ul>
+        <div class="size-grid">
 
-            <li>
-                Tigers in the wild commonly live around 10 to 15 years, although individual lifespan can vary.
-            </li>
+            <div class="size-item">
+                <strong>Lifespan:</strong> 10–15 years
+            </div>
 
-            <li>
-                Males are generally larger and heavier than females.
-            </li>
+            <div class="size-item">
+                <strong>Weight:</strong> 90–300 kg
+            </div>
 
-            <li>
-                Adult tigers can reach several metres in total body length including the tail.
-            </li>
+            <div class="size-item">
+                <strong>Length:</strong> 2–3.3 m
+            </div>
 
-            <li>
-                Their powerful hind legs help them jump, accelerate and move quickly when necessary.
-            </li>
+            <div class="size-item">
+                <strong>Speed:</strong> Up to 65 km/h
+            </div>
 
-            <li>
-                Their claws can be retracted, helping them remain sharp when they are not being used.
-            </li>
-
-            <li>
-                Their night vision is much better than human night vision, helping them hunt in low-light conditions.
-            </li>
-
-            <li>
-                Their strong sense of smell helps them detect scents and identify information left by other animals.
-            </li>
-
-            <li>
-                Their combination of strength, camouflage, swimming ability and stealth makes them highly effective predators.
-            </li>
-
-        </ul>
+        </div>
 
     </div>
 
 </section>
-
-
-
-<!-- ===================================================== -->
 <!-- LION -->
-<!-- ===================================================== -->
 
 <section class="animal">
 
     <h2>🦁 Lion</h2>
 
-    <img
-        src="lion.jpg.jpeg"
-        alt="Lion"
-        class="animal-image"
-    >
+    <img src="lion.jpg.jpeg"
+         alt="Lion"
+         class="animal-image">
 
-    <div class="facts-section">
+
+    <div class="info-box">
 
         <h3>🔬 Real Facts</h3>
 
         <ul>
 
-            <li>
-                The lion is one of the largest members of the cat family.
-            </li>
+            <li>Lions are large members of the cat family.</li>
 
-            <li>
-                Lions are famous for their social behaviour because they commonly live in groups called prides.
-            </li>
+            <li>Male lions usually have a mane.</li>
 
-            <li>
-                Adult male lions usually develop a mane, although the size and colour of the mane can vary.
-            </li>
+            <li>Lions are the only cats that commonly live in large social groups.</li>
 
-            <li>
-                Lionesses generally do not grow the large mane seen in adult males.
-            </li>
+            <li>Lions are powerful predators.</li>
 
-            <li>
-                Lions are powerful predators with strong jaws, sharp claws and muscular bodies.
-            </li>
-
-            <li>
-                Lions are mainly found in Africa, while a small wild population of Asiatic lions survives in India.
-            </li>
-
-            <li>
-                Lions have a distinctive roar that can be heard from several kilometres away under suitable conditions.
-            </li>
-
-            <li>
-                Lions are important predators in their ecosystems and influence the populations of many herbivorous animals.
-            </li>
+            <li>A group of lions is called a pride.</li>
 
         </ul>
 
     </div>
 
 
-    <div class="facts-section">
+    <div class="info-box">
 
-        <h3>🌍 Habitat & Lifestyle</h3>
+        <h3>🌍 Habitat</h3>
 
         <ul>
 
-            <li>
-                Lions are strongly associated with African savannas and grasslands where open spaces provide good hunting opportunities.
-            </li>
+            <li>Lions mainly live in African grasslands and savannas.</li>
 
-            <li>
-                They can also live in woodland, scrubland and other suitable environments.
-            </li>
+            <li>They can also live in dry woodland areas.</li>
 
-            <li>
-                Lions spend many hours resting because hunting and moving through their territory can require large amounts of energy.
-            </li>
+            <li>They need water and prey nearby.</li>
 
-            <li>
-                A pride can contain related females, their young and one or more adult males.
-            </li>
+            <li>Open grasslands help them spot prey.</li>
 
-            <li>
-                Lionesses often cooperate with one another when caring for cubs and hunting.
-            </li>
-
-            <li>
-                Young cubs are protected by adults and gradually learn how to move, hunt and behave within the pride.
-            </li>
-
-            <li>
-                Lions communicate using vocal sounds, body language, scent marking and physical contact.
-            </li>
-
-            <li>
-                A pride's territory can cover a large area depending on the availability of water and prey.
-            </li>
+            <li>They often rest under shade during hot days.</li>
 
         </ul>
 
     </div>
 
 
-    <div class="facts-section">
+    <div class="info-box food-box">
 
-        <h3>🍖 Food & Hunting</h3>
+        <h3>🍖 What Does a Lion Eat?</h3>
 
         <ul>
 
-            <li>
-                Lions are carnivores and depend mainly on other animals for food.
-            </li>
+            <li>Zebra</li>
 
-            <li>
-                Their prey can include antelope, zebra, wildebeest and other medium to large mammals.
-            </li>
+            <li>Wildebeest</li>
 
-            <li>
-                Lionesses often work together when hunting because cooperation can make it easier to approach certain prey.
-            </li>
+            <li>Buffalo</li>
 
-            <li>
-                Lions use their powerful legs and muscular bodies to make short bursts of speed during a hunt.
-            </li>
+            <li>Antelope</li>
 
-            <li>
-                They generally rely more on teamwork and ambush strategies than on extremely long-distance chases.
-            </li>
-
-            <li>
-                Their claws and strong forelimbs help them hold prey.
-            </li>
-
-            <li>
-                Their large canine teeth are adapted for gripping and tearing meat.
-            </li>
-
-            <li>
-                Lions may feed together, and competition can occur around a food source within the pride.
-            </li>
+            <li>Wild boar</li>
 
         </ul>
 
     </div>
 
 
-    <div class="facts-section">
+    <div class="info-box">
 
-        <h3>🧠 Behaviour & Social Life</h3>
+        <h3>🧠 Behaviour</h3>
 
         <ul>
 
-            <li>
-                Lions are among the most social members of the cat family.
-            </li>
+            <li>Lions usually live in groups called prides.</li>
 
-            <li>
-                Members of a pride may rest close to one another and maintain strong social relationships.
-            </li>
+            <li>Females often hunt together.</li>
 
-            <li>
-                Grooming helps lions keep their coats clean and can also strengthen social bonds.
-            </li>
+            <li>Lions spend many hours resting.</li>
 
-            <li>
-                Lionesses may cooperate in caring for several cubs within the group.
-            </li>
+            <li>They use roars to communicate.</li>
 
-            <li>
-                Cubs can play with one another, which helps them develop coordination and social skills.
-            </li>
-
-            <li>
-                Lions communicate through roars, grunts, growls, facial expressions and body movements.
-            </li>
-
-            <li>
-                Males may defend the pride's territory against rival males.
-            </li>
-
-            <li>
-                Social cooperation can help lions survive in environments where large prey are available.
-            </li>
+            <li>They protect their territory from other lions.</li>
 
         </ul>
 
     </div>
 
 
-    <div class="facts-section">
+    <div class="info-box">
 
         <h3>😂 Fun Facts</h3>
 
         <ul>
 
-            <li>
-                A lion's roar is one of the most recognisable sounds in the animal world.
-            </li>
+            <li>A lion's roar can be heard from several kilometres away.</li>
 
-            <li>
-                Lions can rest or sleep for many hours during a day.
-            </li>
+            <li>Male lions usually have larger manes than females.</li>
 
-            <li>
-                A male lion's mane can make the animal appear larger and may vary in colour, length and thickness.
-            </li>
+            <li>Lions can rest for many hours each day.</li>
 
-            <li>
-                Lion cubs are often born with spots on their coats, and these markings usually become less noticeable as they grow.
-            </li>
+            <li>Lions are famous for their powerful roar.</li>
 
-            <li>
-                Lions can run quickly over short distances but are not built for long-distance running.
-            </li>
-
-            <li>
-                Lions use their tails for balance and communication through body movements.
-            </li>
-
-            <li>
-                Lionesses often do most of the hunting for the pride, although males can also hunt.
-            </li>
-
-            <li>
-                Lions can recognise and communicate with members of their social group using different sounds and behaviours.
-            </li>
+            <li>Lions are more commonly found in grasslands than jungles.</li>
 
         </ul>
 
     </div>
 
 
-    <div class="facts-section">
+    <div class="info-box size-box">
 
-        <h3>❤️ Lifespan, Size & Special Ability</h3>
+        <h3>📏 Size & Lifespan</h3>
 
-        <ul>
+        <div class="size-grid">
 
-            <li>
-                Wild lions commonly live around 10 to 15 years, although lifespan varies between individuals and conditions.
-            </li>
+            <div class="size-item">
+                <strong>Lifespan:</strong> 10–15 years
+            </div>
 
-            <li>
-                Male lions are generally larger and heavier than lionesses.
-            </li>
+            <div class="size-item">
+                <strong>Weight:</strong> 120–250 kg
+            </div>
 
-            <li>
-                Adult lions have powerful shoulders, forelimbs and jaws that help them capture and control prey.
-            </li>
+            <div class="size-item">
+                <strong>Length:</strong> 1.7–2.5 m
+            </div>
 
-            <li>
-                Their strong legs allow them to make rapid short-distance movements during hunting.
-            </li>
+            <div class="size-item">
+                <strong>Speed:</strong> Up to 80 km/h
+            </div>
 
-            <li>
-                Their eyes are adapted to help them see in low-light conditions.
-            </li>
-
-            <li>
-                Their whiskers help provide sensory information about nearby objects and surroundings.
-            </li>
-
-            <li>
-                Their ability to cooperate socially is an important part of lion life.
-            </li>
-
-            <li>
-                Their combination of strength, teamwork, communication and hunting ability makes them important predators in their habitats.
-            </li>
-
-        </ul>
+        </div>
 
     </div>
 
 </section>
+<!-- ELEPHANT -->
 
+<section class="animal">
+
+    <h2>🐘 Elephant</h2>
+
+    <img src="elephant.jpg.jpeg"
+         alt="Elephant"
+         class="animal-image">
+
+
+    <div class="info-box">
+
+        <h3>🔬 Real Facts</h3>
+
+        <ul>
+
+            <li>Elephants are the largest living land animals.</li>
+
+            <li>They have large ears and long trunks.</li>
+
+            <li>Their trunks are used for breathing, eating and drinking.</li>
+
+            <li>Elephants have strong social bonds.</li>
+
+            <li>They can communicate using sounds and vibrations.</li>
+
+        </ul>
+
+    </div>
+
+
+    <div class="info-box">
+
+        <h3>🌍 Habitat</h3>
+
+        <ul>
+
+            <li>Elephants live in forests, grasslands and savannas.</li>
+
+            <li>African and Asian elephants live in different regions.</li>
+
+            <li>They need large areas to find food and water.</li>
+
+            <li>They can travel long distances in search of food.</li>
+
+            <li>They often stay near water sources.</li>
+
+        </ul>
+
+    </div>
+
+
+    <div class="info-box food-box">
+
+        <h3>🌿 What Does an Elephant Eat?</h3>
+
+        <ul>
+
+            <li>Grass</li>
+
+            <li>Leaves</li>
+
+            <li>Fruits</li>
+
+            <li>Tree bark</li>
+
+            <li>Roots and other plants</li>
+
+        </ul>
+
+    </div>
+
+
+    <div class="info-box">
+
+        <h3>🧠 Behaviour</h3>
+
+        <ul>
+
+            <li>Elephants are highly social animals.</li>
+
+            <li>They usually live in family groups.</li>
+
+            <li>They care for young members of the group.</li>
+
+            <li>They use their trunks to touch and communicate.</li>
+
+            <li>They can form strong bonds with other elephants.</li>
+
+        </ul>
+
+    </div>
+
+
+    <div class="info-box">
+
+        <h3>😂 Fun Facts</h3>
+
+        <ul>
+
+            <li>An elephant's trunk contains thousands of muscles.</li>
+
+            <li>Elephants can swim.</li>
+
+            <li>Their large ears help release body heat.</li>
+
+            <li>Elephants can use their trunks like a flexible hand.</li>
+
+            <li>They have very strong memories and social bonds.</li>
+
+        </ul>
+
+    </div>
+
+
+    <div class="info-box size-box">
+
+        <h3>📏 Size & Lifespan</h3>
+
+        <div class="size-grid">
+
+            <div class="size-item">
+                <strong>Lifespan:</strong> 60–70 years
+            </div>
+
+            <div class="size-item">
+                <strong>Weight:</strong> 2,700–6,000 kg
+            </div>
+
+            <div class="size-item">
+                <strong>Height:</strong> 2.5–4 m
+            </div>
+
+            <div class="size-item">
+                <strong>Speed:</strong> Up to 40 km/h
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- PANDA -->
+
+<section class="animal">
+
+    <h2>🐼 Giant Panda</h2>
+
+    <img src="panda.jpg.jpeg"
+         alt="Giant Panda"
+         class="animal-image">
+
+
+    <div class="info-box">
+
+        <h3>🔬 Real Facts</h3>
+
+        <ul>
+
+            <li>Giant pandas are mammals from China.</li>
+
+            <li>They have distinctive black and white fur.</li>
+
+            <li>Pandas have strong jaws and teeth for chewing bamboo.</li>
+
+            <li>They have a special wrist bone that helps hold food.</li>
+
+            <li>Most of their day is spent eating and resting.</li>
+
+        </ul>
+
+    </div>
+
+
+    <div class="info-box">
+
+        <h3>🌍 Habitat</h3>
+
+        <ul>
+
+            <li>Pandas live mainly in mountain forests of central China.</li>
+
+            <li>They prefer cool, damp forests.</li>
+
+            <li>Bamboo grows widely in their natural habitat.</li>
+
+            <li>They usually live at higher elevations.</li>
+
+            <li>They spend much of their time on the ground.</li>
+
+        </ul>
+
+    </div>
+
+
+    <div class="info-box food-box">
+
+        <h3>🎋 What Does a Panda Eat?</h3>
+
+        <ul>
+
+            <li>Bamboo leaves</li>
+
+            <li>Bamboo stems</li>
+
+            <li>Bamboo shoots</li>
+
+            <li>Small amounts of fruits</li>
+
+            <li>Occasionally small animals and eggs</li>
+
+        </ul>
+
+    </div>
+
+
+    <div class="info-box">
+
+        <h3>🧠 Behaviour</h3>
+
+        <ul>
+
+            <li>Pandas usually live alone.</li>
+
+            <li>They spend many hours eating bamboo.</li>
+
+            <li>They can climb trees.</li>
+
+            <li>They are generally calm animals.</li>
+
+            <li>They communicate using sounds and scent marks.</li>
+
+        </ul>
+
+    </div>
+
+
+    <div class="info-box">
+
+        <h3>😂 Fun Facts</h3>
+
+        <ul>
+
+            <li>A panda can spend around 10–16 hours a day eating.</li>
+
+            <li>Pandas have a thumb-like wrist bone.</li>
+
+            <li>Baby pandas are born very small compared with their mothers.</li>
+
+            <li>Pandas can climb trees to escape danger.</li>
+
+            <li>Despite their plant-based diet, pandas belong to the bear family.</li>
+
+        </ul>
+
+    </div>
+
+
+    <div class="info-box size-box">
+
+        <h3>📏 Size & Lifespan</h3>
+
+        <div class="size-grid">
+
+            <div class="size-item">
+                <strong>Lifespan:</strong> 15–20 years
+            </div>
+
+            <div class="size-item">
+                <strong>Weight:</strong> 70–120 kg
+            </div>
+
+            <div class="size-item">
+                <strong>Length:</strong> 1.2–1.9 m
+            </div>
+
+            <div class="size-item">
+                <strong>Food:</strong> Mostly bamboo
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- BEAR -->
+
+<section class="animal">
+
+    <h2>🐻 Bear</h2>
+
+    <img src="bear.jpg.jpeg"
+         alt="Bear"
+         class="animal-image">
+
+
+    <div class="info-box">
+
+        <h3>🔬 Real Facts</h3>
+
+        <ul>
+
+            <li>Bears are large mammals found in many parts of the world.</li>
+
+            <li>There are eight living species of bears.</li>
+
+            <li>Bears have strong bodies, powerful claws and excellent senses.</li>
+
+            <li>Most bears are good swimmers.</li>
+
+            <li>Bears can walk on the soles of their feet.</li>
+
+        </ul>
+
+    </div>
+
+
+    <div class="info-box">
+
+        <h3>🌍 Habitat</h3>
+
+        <ul>
+
+            <li>Bears live in forests, mountains, grasslands and Arctic regions.</li>
+
+            <li>Different bear species live in different habitats.</li>
+
+            <li>They often choose areas with plenty of food.</li>
+
+            <li>Some bears build dens for resting or raising cubs.</li>
+
+            <li>Polar bears spend much of their lives around sea ice.</li>
+
+        </ul>
+
+    </div>
+
+
+    <div class="info-box food-box">
+
+        <h3>🍖 What Does a Bear Eat?</h3>
+
+        <ul>
+
+            <li>Fruits and berries</li>
+
+            <li>Nuts and seeds</li>
+
+            <li>Fish</li>
+
+            <li>Insects</li>
+
+            <li>Small and large animals</li>
+
+        </ul>
+
+    </div>
+
+
+    <div class="info-box">
+
+        <h3>🧠 Behaviour</h3>
+
+        <ul>
+
+            <li>Most bears usually live alone.</li>
+
+            <li>They have an excellent sense of smell.</li>
+
+            <li>They can climb, swim and run depending on the species.</li>
+
+            <li>Some bears become less active during cold winter months.</li>
+
+            <li>Mother bears carefully protect their cubs.</li>
+
+        </ul>
+
+    </div>
+
+
+    <div class="info-box">
+
+        <h3>😂 Fun Facts</h3>
+
+        <ul>
+
+            <li>Polar bears have black skin under their fur.</li>
+
+            <li>Some bears can run surprisingly fast.</li>
+
+            <li>Bears have very strong claws.</li>
+
+            <li>Some bear species are excellent tree climbers.</li>
+
+            <li>Pandas are also members of the bear family.</li>
+
+        </ul>
+
+    </div>
+
+
+    <div class="info-box size-box">
+
+        <h3>📏 Size & Lifespan</h3>
+
+        <div class="size-grid">
+
+            <div class="size-item">
+                <strong>Lifespan:</strong> 20–30 years
+            </div>
+
+            <div class="size-item">
+                <strong>Weight:</strong> 25–700 kg
+            </div>
+
+            <div class="size-item">
+                <strong>Height:</strong> 0.6–2.8 m
+            </div>
+
+            <div class="size-item">
+                <strong>Speed:</strong> Up to 56 km/h
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ZEBRA -->
+
+<section class="animal">
+
+    <h2>🦓 Zebra</h2>
+
+    <img src="zebra.jpg.jpeg"
+         alt="Zebra"
+         class="animal-image">
+
+
+    <div class="info-box">
+
+        <h3>🔬 Real Facts</h3>
+
+        <ul>
+
+            <li>Zebras are hoofed mammals closely related to horses and donkeys.</li>
+
+            <li>Every zebra has a unique pattern of black and white stripes.</li>
+
+            <li>Zebras have strong legs that help them run quickly.</li>
+
+            <li>They usually live in groups called herds.</li>
+
+            <li>Zebras can communicate using sounds, body movements and facial expressions.</li>
+
+        </ul>
+
+    </div>
+
+
+    <div class="info-box">
+
+        <h3>🌍 Habitat</h3>
+
+        <ul>
+
+            <li>Zebras mainly live in African grasslands and savannas.</li>
+
+            <li>Some species also live in mountainous or dry regions.</li>
+
+            <li>They prefer areas where grass and water are available.</li>
+
+            <li>They travel long distances to find food and water.</li>
+
+            <li>Open grasslands help zebras watch for predators.</li>
+
+        </ul>
+
+    </div>
+
+
+    <div class="info-box food-box">
+
+        <h3>🌿 What Does a Zebra Eat?</h3>
+
+        <ul>
+
+            <li>Grass</li>
+
+            <li>Leaves</li>
+
+            <li>Herbs</li>
+
+            <li>Shrubs</li>
+
+            <li>Other green plants</li>
+
+        </ul>
+
+    </div>
+
+
+    <div class="info-box">
+
+        <h3>🧠 Behaviour</h3>
+
+        <ul>
+
+            <li>Zebras usually stay together in groups.</li>
+
+            <li>They use their ears and body movements to communicate.</li>
+
+            <li>They can run quickly when they sense danger.</li>
+
+            <li>Zebras may kick predators with their powerful back legs.</li>
+
+            <li>They spend a large part of the day feeding.</li>
+
+        </ul>
+
+    </div>
+
+
+    <div class="info-box">
+
+        <h3>😂 Fun Facts</h3>
+
+        <ul>
+
+            <li>No two zebras have exactly the same stripe pattern.</li>
+
+            <li>A zebra's stripes may help confuse predators.</li>
+
+            <li>Zebras can sleep while standing for short periods.</li>
+
+            <li>Baby zebras can walk soon after they are born.</li>
+
+            <li>Zebras can run at high speeds when escaping danger.</li>
+
+        </ul>
+
+    </div>
+
+
+    <div class="info-box size-box">
+
+        <h3>📏 Size & Lifespan</h3>
+
+        <div class="size-grid">
+
+            <div class="size-item">
+                <strong>Lifespan:</strong> 20–25 years
+            </div>
+
+            <div class="size-item">
+                <strong>Weight:</strong> 175–450 kg
+            </div>
+
+            <div class="size-item">
+                <strong>Height:</strong> 1.2–1.5 m
+            </div>
+
+            <div class="size-item">
+                <strong>Speed:</strong> Up to 65 km/h
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- GIRAFFE -->
+
+<section class="animal">
+
+    <h2>🦒 Giraffe</h2>
+
+    <img src="giraffe.jpg.jpeg"
+         alt="Giraffe"
+         class="animal-image">
+
+
+    <div class="info-box">
+
+        <h3>🔬 Real Facts</h3>
+
+        <ul>
+
+            <li>Giraffes are the tallest land animals in the world.</li>
+
+            <li>They have very long necks and legs.</li>
+
+            <li>Each giraffe has a unique pattern of spots.</li>
+
+            <li>Giraffes have long tongues that help them reach leaves.</li>
+
+            <li>They have small horn-like structures called ossicones on their heads.</li>
+
+        </ul>
+
+    </div>
+
+
+    <div class="info-box">
+
+        <h3>🌍 Habitat</h3>
+
+        <ul>
+
+            <li>Giraffes mainly live in African savannas and grasslands.</li>
+
+            <li>They can also be found in open woodlands.</li>
+
+            <li>They prefer areas with plenty of trees and shrubs.</li>
+
+            <li>They can travel long distances to find food and water.</li>
+
+            <li>Their height helps them see across open areas.</li>
+
+        </ul>
+
+    </div>
+
+
+    <div class="info-box food-box">
+
+        <h3>🌿 What Does a Giraffe Eat?</h3>
+
+        <ul>
+
+            <li>Acacia leaves</li>
+
+            <li>Tree leaves</li>
+
+            <li>Shrubs</li>
+
+            <li>Flowers</li>
+
+            <li>Young shoots and other plants</li>
+
+        </ul>
+
+    </div>
+
+
+    <div class="info-box">
+
+        <h3>🧠 Behaviour</h3>
+
+        <ul>
+
+            <li>Giraffes usually live in loose social groups.</li>
+
+            <li>They spend many hours of the day feeding.</li>
+
+            <li>They use their long tongues to pull leaves from trees.</li>
+
+            <li>They can run quickly when they sense danger.</li>
+
+            <li>Giraffes communicate using sounds and body movements.</li>
+
+        </ul>
+
+    </div>
+
+
+    <div class="info-box">
+
+        <h3>😂 Fun Facts</h3>
+
+        <ul>
+
+            <li>A giraffe's neck can be over 2 metres long.</li>
+
+            <li>Giraffes have the same number of neck bones as humans — seven.</li>
+
+            <li>Their long tongues can be around 45 cm long.</li>
+
+            <li>Giraffes can sleep while standing for short periods.</li>
+
+            <li>Their unique spots help identify individual giraffes.</li>
+
+        </ul>
+
+    </div>
+
+
+    <div class="info-box size-box">
+
+        <h3>📏 Size & Lifespan</h3>
+
+        <div class="size-grid">
+
+            <div class="size-item">
+                <strong>Lifespan:</strong> 20–25 years
+            </div>
+
+            <div class="size-item">
+                <strong>Weight:</strong> 550–1,930 kg
+            </div>
+
+            <div class="size-item">
+                <strong>Height:</strong> 4.3–5.7 m
+            </div>
+
+            <div class="size-item">
+                <strong>Speed:</strong> Up to 60 km/h
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- MONKEY -->
+
+<section class="animal">
+
+    <h2>🐒 Monkey</h2>
+
+    <img src="monkey.jpg.jpeg"
+         alt="Monkey"
+         class="animal-image">
+
+
+    <div class="info-box">
+
+        <h3>🔬 Real Facts</h3>
+
+        <ul>
+
+            <li>Monkeys are intelligent mammals belonging to the primate group.</li>
+
+            <li>There are many different species of monkeys around the world.</li>
+
+            <li>Many monkeys have strong hands and feet for climbing.</li>
+
+            <li>Some monkey species have long tails that help with balance.</li>
+
+            <li>Monkeys can learn, remember and solve simple problems.</li>
+
+        </ul>
+
+    </div>
+
+
+    <div class="info-box">
+
+        <h3>🌍 Habitat</h3>
+
+        <ul>
+
+            <li>Monkeys live mainly in tropical and subtropical regions.</li>
+
+            <li>Many species live in forests and rainforests.</li>
+
+            <li>Some monkeys also live in grasslands, mountains and dry areas.</li>
+
+            <li>Tree branches provide food, shelter and protection for many species.</li>
+
+            <li>Different monkey species are found in Africa, Asia and the Americas.</li>
+
+        </ul>
+
+    </div>
+
+
+    <div class="info-box food-box">
+
+        <h3>🍌 What Does a Monkey Eat?</h3>
+
+        <ul>
+
+            <li>Fruits</li>
+
+            <li>Leaves</li>
+
+            <li>Seeds and nuts</li>
+
+            <li>Insects</li>
+
+            <li>Flowers and other plant parts</li>
+
+        </ul>
+
+    </div>
+
+
+    <div class="info-box">
+
+        <h3>🧠 Behaviour</h3>
+
+        <ul>
+
+            <li>Many monkeys live in social groups.</li>
+
+            <li>They communicate using sounds, facial expressions and body movements.</li>
+
+            <li>They often groom one another to strengthen social bonds.</li>
+
+            <li>Many species are excellent climbers.</li>
+
+            <li>Mother monkeys carefully protect and care for their babies.</li>
+
+        </ul>
+
+    </div>
+
+
+    <div class="info-box">
+
+        <h3>😂 Fun Facts</h3>
+
+        <ul>
+
+            <li>Some monkeys can use their tails to help them move through trees.</li>
+
+            <li>Monkeys have excellent vision.</li>
+
+            <li>Some monkeys use simple tools to get food.</li>
+
+            <li>They can make many different sounds to communicate.</li>
+
+            <li>Monkeys are closely related to apes and humans.</li>
+
+        </ul>
+
+    </div>
+
+
+    <div class="info-box size-box">
+
+        <h3>📏 Size & Lifespan</h3>
+
+        <div class="size-grid">
+
+            <div class="size-item">
+                <strong>Lifespan:</strong> 10–30+ years
+            </div>
+
+            <div class="size-item">
+                <strong>Weight:</strong> 0.1–50 kg
+            </div>
+
+            <div class="size-item">
+                <strong>Height:</strong> Varies by species
+            </div>
+
+            <div class="size-item">
+                <strong>Speed:</strong> Varies by species
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- FOOTER -->
 
 <footer>
 
@@ -706,1646 +1393,7 @@
     🐾 Animal & Nature Facts
 
 </footer>
-<!-- ===================================================== -->
-<!-- ELEPHANT -->
-<!-- ===================================================== -->
 
-<section class="animal">
 
-    <h2>🐘 Elephant</h2>
-
-    <img
-        src="elephant.jpg.jpeg"
-        alt="Elephant"
-        class="animal-image"
-    >
-
-    <div class="facts-section">
-
-        <h3>🔬 Real Facts</h3>
-
-        <ul>
-
-            <li>
-                Elephants are the largest living land animals on Earth.
-            </li>
-
-            <li>
-                There are three living elephant species: the African savanna elephant, African forest elephant and Asian elephant.
-            </li>
-
-            <li>
-                Elephants are famous for their long trunks, which are used for breathing, smelling, drinking, feeding and touching objects.
-            </li>
-
-            <li>
-                Their large ears help them release heat and regulate their body temperature.
-            </li>
-
-            <li>
-                Elephants have highly developed brains and are known for complex social behaviour.
-            </li>
-
-            <li>
-                Their tusks are modified teeth and can be used for digging, moving objects and defence.
-            </li>
-
-            <li>
-                Elephants communicate using sounds, body movements and vibrations that can travel through the ground.
-            </li>
-
-            <li>
-                Elephants are important ecosystem engineers because their feeding and movement can change vegetation and create opportunities for other species.
-            </li>
-
-        </ul>
-
-    </div>
-
-
-    <div class="facts-section">
-
-        <h3>🌍 Habitat & Lifestyle</h3>
-
-        <ul>
-
-            <li>
-                African elephants live in habitats such as savannas, grasslands, forests and wetlands.
-            </li>
-
-            <li>
-                Asian elephants are found mainly in forest and grassland environments across parts of South and Southeast Asia.
-            </li>
-
-            <li>
-                Elephants need access to water for drinking, bathing and cooling their bodies.
-            </li>
-
-            <li>
-                Female elephants and their young commonly live in family groups led by an experienced female called a matriarch.
-            </li>
-
-            <li>
-                Adult males often leave their family groups when they become mature and may live alone or in smaller male groups.
-            </li>
-
-            <li>
-                Elephant families can travel long distances in search of food and water.
-            </li>
-
-            <li>
-                Young elephants learn important survival behaviours by observing older members of their group.
-            </li>
-
-            <li>
-                Strong family relationships are an important part of elephant social life.
-            </li>
-
-        </ul>
-
-    </div>
-
-
-    <div class="facts-section">
-
-        <h3>🌿 Food & Feeding</h3>
-
-        <ul>
-
-            <li>
-                Elephants are herbivores and eat plant-based foods.
-            </li>
-
-            <li>
-                Their diet can include grasses, leaves, bark, roots, fruits, branches and other vegetation.
-            </li>
-
-            <li>
-                Elephants use their trunks to pick up food and place it into their mouths.
-            </li>
-
-            <li>
-                Their strong molar teeth help them grind tough plant material.
-            </li>
-
-            <li>
-                Elephants can spend many hours of the day feeding because they need large amounts of plant material.
-            </li>
-
-            <li>
-                Their feeding behaviour can open paths through dense vegetation and create clearings used by other animals.
-            </li>
-
-            <li>
-                Elephants may use their tusks and trunks to remove bark from trees or dig for roots and water.
-            </li>
-
-            <li>
-                Their diet changes depending on the season, habitat and availability of different plants.
-            </li>
-
-        </ul>
-
-    </div>
-
-
-    <div class="facts-section">
-
-        <h3>🧠 Behaviour & Intelligence</h3>
-
-        <ul>
-
-            <li>
-                Elephants are highly social animals and can form strong relationships with members of their family.
-            </li>
-
-            <li>
-                They communicate through a wide variety of sounds, including very low-frequency calls.
-            </li>
-
-            <li>
-                Elephants can recognise and respond to members of their social group.
-            </li>
-
-            <li>
-                Young elephants often play with one another, helping them develop coordination and social skills.
-            </li>
-
-            <li>
-                Elephants can use their trunks with remarkable control and precision.
-            </li>
-
-            <li>
-                They have been observed using objects such as branches in ways that help them interact with their environment.
-            </li>
-
-            <li>
-                Older elephants can remember routes to important feeding and water locations.
-            </li>
-
-            <li>
-                Family members may gather around and protect a young elephant when it is frightened or in danger.
-            </li>
-
-        </ul>
-
-    </div>
-
-
-    <div class="facts-section">
-
-        <h3>😂 Fun Facts</h3>
-
-        <ul>
-
-            <li>
-                An elephant's trunk contains thousands of muscles and is extremely flexible.
-            </li>
-
-            <li>
-                Elephants can use their trunks like a straw to draw up water and then spray it into their mouths.
-            </li>
-
-            <li>
-                Their large ears can act like natural fans when they flap them.
-            </li>
-
-            <li>
-                Elephants can take mud and dust baths to help protect their skin from heat and insects.
-            </li>
-
-            <li>
-                Baby elephants have to learn how to control their trunks as they grow.
-            </li>
-
-            <li>
-                Elephants can communicate over long distances using sounds that humans may not easily hear.
-            </li>
-
-            <li>
-                Their feet have a thick, cushioned structure that helps support their enormous body weight.
-            </li>
-
-            <li>
-                Despite their huge size, elephants can move surprisingly quietly when walking carefully.
-            </li>
-
-        </ul>
-
-    </div>
-
-
-    <div class="facts-section">
-
-        <h3>❤️ Lifespan, Size & Special Ability</h3>
-
-        <ul>
-
-            <li>
-                Elephants can live for several decades, with lifespan varying between species and individuals.
-            </li>
-
-            <li>
-                African elephants are generally larger than Asian elephants.
-            </li>
-
-            <li>
-                Adult elephants can weigh several tonnes.
-            </li>
-
-            <li>
-                Their strong legs are designed to support their enormous body weight.
-            </li>
-
-            <li>
-                Their trunks combine the functions of the nose and upper lip and are one of their most specialised body parts.
-            </li>
-
-            <li>
-                Their large ears help African elephants lose body heat in hot environments.
-            </li>
-
-            <li>
-                Their powerful memory and ability to learn from older family members help them survive in changing environments.
-            </li>
-
-            <li>
-                Their combination of intelligence, strength, communication and social cooperation makes elephants unique among land mammals.
-            </li>
-
-        </ul>
-
-    </div>
-
-</section>
-
-
-
-<!-- ===================================================== -->
-<!-- PANDA -->
-<!-- ===================================================== -->
-
-<section class="animal">
-
-    <h2>🐼 Giant Panda</h2>
-
-    <img
-        src="panda.jpg.jpeg"
-        alt="Giant Panda"
-        class="animal-image"
-    >
-
-    <div class="facts-section">
-
-        <h3>🔬 Real Facts</h3>
-
-        <ul>
-
-            <li>
-                The giant panda is a bear species native to China.
-            </li>
-
-            <li>
-                Giant pandas are famous for their distinctive black-and-white fur.
-            </li>
-
-            <li>
-                Although pandas belong to the order Carnivora, their natural diet consists mainly of bamboo.
-            </li>
-
-            <li>
-                Pandas have powerful jaws and strong teeth that help them process tough bamboo.
-            </li>
-
-            <li>
-                Their front paws have an enlarged wrist bone that works like a thumb and helps them grip bamboo.
-            </li>
-
-            <li>
-                Giant pandas are generally solitary animals and usually spend much of their time alone.
-            </li>
-
-            <li>
-                Pandas are native to mountainous regions of central China.
-            </li>
-
-            <li>
-                The giant panda is considered an important symbol of wildlife conservation.
-            </li>
-
-        </ul>
-
-    </div>
-
-
-    <div class="facts-section">
-
-        <h3>🌍 Habitat & Lifestyle</h3>
-
-        <ul>
-
-            <li>
-                Giant pandas naturally live in cool, mountainous forest habitats in central China.
-            </li>
-
-            <li>
-                Their habitat contains thick bamboo forests that provide their main food source.
-            </li>
-
-            <li>
-                Pandas usually spend a large part of their day searching for and eating bamboo.
-            </li>
-
-            <li>
-                They are generally solitary and maintain their own living areas.
-            </li>
-
-            <li>
-                Pandas can climb trees, especially when they are young or when they need to avoid danger.
-            </li>
-
-            <li>
-                They can also move across steep mountain terrain using their strong limbs.
-            </li>
-
-            <li>
-                A panda's habitat needs healthy bamboo growth because bamboo availability is closely connected to its survival.
-            </li>
-
-            <li>
-                Protecting connected forest habitats is important for maintaining wild panda populations.
-            </li>
-
-        </ul>
-
-    </div>
-
-
-    <div class="facts-section">
-
-        <h3>🎋 Food & Feeding</h3>
-
-        <ul>
-
-            <li>
-                Bamboo makes up the great majority of the giant panda's natural diet.
-            </li>
-
-            <li>
-                Pandas eat different parts of bamboo including leaves, stems and shoots.
-            </li>
-
-            <li>
-                Because bamboo contains relatively little energy, pandas need to spend many hours feeding.
-            </li>
-
-            <li>
-                Their powerful teeth and jaws help them crush tough bamboo material.
-            </li>
-
-            <li>
-                The panda's modified wrist bone helps it hold bamboo while eating.
-            </li>
-
-            <li>
-                Pandas can sometimes eat other plant material and occasionally consume small amounts of animal food.
-            </li>
-
-            <li>
-                Their digestive system still retains characteristics of a bear-like carnivore even though their diet is mostly plant-based.
-            </li>
-
-            <li>
-                A panda may sit while eating so that its front paws can be used to hold and manipulate bamboo.
-            </li>
-
-        </ul>
-
-    </div>
-
-
-    <div class="facts-section">
-
-        <h3>🧠 Behaviour & Lifestyle</h3>
-
-        <ul>
-
-            <li>
-                Giant pandas are usually solitary outside the breeding season and mother-cub periods.
-            </li>
-
-            <li>
-                They communicate with other pandas using scent markings and vocal sounds.
-            </li>
-
-            <li>
-                Pandas have an excellent sense of smell that helps them identify other individuals.
-            </li>
-
-            <li>
-                Young pandas stay with their mothers for an extended period while learning important behaviours.
-            </li>
-
-            <li>
-                Pandas can climb trees using their strong limbs and curved claws.
-            </li>
-
-            <li>
-                They spend much of their active time feeding because bamboo provides relatively low nutritional energy.
-            </li>
-
-            <li>
-                Pandas may rest between feeding periods to conserve energy.
-            </li>
-
-            <li>
-                Their calm lifestyle and specialised bamboo diet are closely connected to the mountain forests where they live.
-            </li>
-
-        </ul>
-
-    </div>
-
-
-    <div class="facts-section">
-
-        <h3>😂 Fun Facts</h3>
-
-        <ul>
-
-            <li>
-                Baby giant pandas are extremely small compared with their mothers when they are born.
-            </li>
-
-            <li>
-                Newborn panda cubs are pinkish and have very little fur at birth.
-            </li>
-
-            <li>
-                The famous black-and-white colour pattern makes giant pandas easy to recognise.
-            </li>
-
-            <li>
-                Pandas can roll, tumble and play, especially when they are young.
-            </li>
-
-            <li>
-                They can sit upright while eating bamboo, making it easier to use their front paws.
-            </li>
-
-            <li>
-                A panda's rounded body and thick fur help it stay warm in its cool mountain habitat.
-            </li>
-
-            <li>
-                Giant pandas can climb trees despite their heavy-looking bodies.
-            </li>
-
-            <li>
-                Their enlarged wrist bone is often called a “false thumb” because it helps them grip food.
-            </li>
-
-        </ul>
-
-    </div>
-
-
-    <div class="facts-section">
-
-        <h3>❤️ Lifespan, Size & Special Ability</h3>
-
-        <ul>
-
-            <li>
-                Giant pandas can live around 15 to 20 years in the wild, although lifespan varies among individuals.
-            </li>
-
-            <li>
-                Pandas have a large, rounded body covered with thick black-and-white fur.
-            </li>
-
-            <li>
-                Adult pandas can weigh many tens of kilograms, with males generally larger than females.
-            </li>
-
-            <li>
-                Their powerful jaws allow them to process tough bamboo efficiently.
-            </li>
-
-            <li>
-                Their false thumb gives them excellent control when holding bamboo stems and leaves.
-            </li>
-
-            <li>
-                Their strong claws help them climb trees and move across difficult terrain.
-            </li>
-
-            <li>
-                Their strong sense of smell helps them locate and identify other pandas.
-            </li>
-
-            <li>
-                Their specialised body structure and feeding behaviour allow them to survive on a diet dominated by bamboo.
-            </li>
-
-        </ul>
-
-    </div>
-
-</section>
-<!-- ===================================================== -->
-<!-- BEAR -->
-<!-- ===================================================== -->
-
-<section class="animal">
-
-    <h2>🐻 Bear</h2>
-
-    <img
-        src="bear.jpg.jpeg"
-        alt="Bear"
-        class="animal-image"
-    >
-
-    <div class="facts-section">
-
-        <h3>🔬 Real Facts</h3>
-
-        <ul>
-
-            <li>
-                Bears are mammals belonging to the family Ursidae.
-            </li>
-
-            <li>
-                There are eight living bear species, including polar bears, brown bears, American black bears and giant pandas.
-            </li>
-
-            <li>
-                Bears have strong bodies, powerful limbs and large paws that help them move through different environments.
-            </li>
-
-            <li>
-                Most bear species are omnivores, meaning they can eat both plant and animal foods.
-            </li>
-
-            <li>
-                Polar bears are highly specialised for life in Arctic environments and depend heavily on marine food sources.
-            </li>
-
-            <li>
-                Bears have an excellent sense of smell that helps them locate food and recognise their surroundings.
-            </li>
-
-            <li>
-                Depending on the species, bears can climb, swim, dig and run surprisingly well.
-            </li>
-
-            <li>
-                Bears can have very different body sizes, colours, diets and behaviours depending on their species and habitat.
-            </li>
-
-        </ul>
-
-    </div>
-
-
-    <div class="facts-section">
-
-        <h3>🌍 Habitat & Lifestyle</h3>
-
-        <ul>
-
-            <li>
-                Bears live in a wide variety of habitats including forests, mountains, grasslands, Arctic sea ice and coastal regions.
-            </li>
-
-            <li>
-                Brown bears can live in forests, mountain regions and open landscapes across parts of North America, Europe and Asia.
-            </li>
-
-            <li>
-                American black bears commonly live in forests and are found across parts of North America.
-            </li>
-
-            <li>
-                Polar bears spend much of their lives around Arctic sea ice and coastal areas.
-            </li>
-
-            <li>
-                Most bear species are generally solitary, although mothers stay closely with their young.
-            </li>
-
-            <li>
-                Bears can travel long distances while searching for food, water or suitable shelter.
-            </li>
-
-            <li>
-                Some bear species use dens or sheltered areas for resting and raising their young.
-            </li>
-
-            <li>
-                Their ability to adapt to different environments has allowed different bear species to occupy many parts of the world.
-            </li>
-
-        </ul>
-
-    </div>
-
-
-    <div class="facts-section">
-
-        <h3>🍓 Food & Feeding</h3>
-
-        <ul>
-
-            <li>
-                Many bear species are omnivores and eat a combination of plants, fruits, insects and animal foods.
-            </li>
-
-            <li>
-                Their diet can include berries, nuts, roots, grasses, fruits and other plant material.
-            </li>
-
-            <li>
-                Bears may eat insects such as ants, termites and bees when they are available.
-            </li>
-
-            <li>
-                Some bears also eat fish and other aquatic animals.
-            </li>
-
-            <li>
-                Brown bears can feed on salmon during seasonal fish runs in some regions.
-            </li>
-
-            <li>
-                Polar bears have a much more meat-based diet and commonly hunt seals when sea ice conditions allow.
-            </li>
-
-            <li>
-                Bears use their strong claws and paws for digging, turning over objects and accessing food.
-            </li>
-
-            <li>
-                A bear's diet can change according to the season and the foods available in its environment.
-            </li>
-
-        </ul>
-
-    </div>
-
-
-    <div class="facts-section">
-
-        <h3>🧠 Behaviour & Lifestyle</h3>
-
-        <ul>
-
-            <li>
-                Most bear species generally live alone rather than in permanent large social groups.
-            </li>
-
-            <li>
-                Mother bears can be very protective of their cubs and teach them important survival behaviours.
-            </li>
-
-            <li>
-                Bears communicate using body movements, sounds and scent markings.
-            </li>
-
-            <li>
-                Their powerful sense of smell helps them locate food from considerable distances.
-            </li>
-
-            <li>
-                Some bear species can climb trees, especially when they are young.
-            </li>
-
-            <li>
-                Bears are generally strong swimmers, although swimming ability varies between species and individuals.
-            </li>
-
-            <li>
-                Some bears enter periods of reduced activity during winter, with the exact behaviour depending on species and environmental conditions.
-            </li>
-
-            <li>
-                Young bears learn many skills by following and observing their mothers.
-            </li>
-
-        </ul>
-
-    </div>
-
-
-    <div class="facts-section">
-
-        <h3>😂 Fun Facts</h3>
-
-        <ul>
-
-            <li>
-                Bears can stand on their hind legs to look around, reach food or investigate their surroundings.
-            </li>
-
-            <li>
-                Despite their large bodies, some bear species can run surprisingly fast over short distances.
-            </li>
-
-            <li>
-                Bear paws are large and contain strong claws that are useful for digging and climbing.
-            </li>
-
-            <li>
-                Bears have a highly developed sense of smell, which is one of their most important senses.
-            </li>
-
-            <li>
-                Giant pandas are technically bears even though their diet is dominated by bamboo.
-            </li>
-
-            <li>
-                Polar bears have black skin beneath their thick, pale-looking fur.
-            </li>
-
-            <li>
-                Bears can be curious animals and may investigate unfamiliar smells and objects.
-            </li>
-
-            <li>
-                Different bear species have adapted to environments ranging from tropical forests to the frozen Arctic.
-            </li>
-
-        </ul>
-
-    </div>
-
-
-    <div class="facts-section">
-
-        <h3>❤️ Lifespan, Size & Special Ability</h3>
-
-        <ul>
-
-            <li>
-                Bear lifespan varies greatly between species, with some wild bears capable of living for 20 years or more.
-            </li>
-
-            <li>
-                Polar bears can become very large, while other bear species are considerably smaller.
-            </li>
-
-            <li>
-                Adult bears can weigh from several tens of kilograms to several hundred kilograms depending on the species.
-            </li>
-
-            <li>
-                Their strong forelimbs and claws make them excellent diggers.
-            </li>
-
-            <li>
-                Their powerful jaws and teeth allow them to process many different types of food.
-            </li>
-
-            <li>
-                Their excellent sense of smell helps them locate food across large areas.
-            </li>
-
-            <li>
-                Their thick fur helps many species survive in cold environments.
-            </li>
-
-            <li>
-                Their combination of strength, adaptability and excellent senses helps bears survive in a wide range of habitats.
-            </li>
-
-        </ul>
-
-    </div>
-
-</section>
-
-
-
-<!-- ===================================================== -->
-<!-- ZEBRA -->
-<!-- ===================================================== -->
-
-<section class="animal">
-
-    <h2>🦓 Zebra</h2>
-
-    <img
-        src="zebra.jpg.jpeg"
-        alt="Zebra"
-        class="animal-image"
-    >
-
-    <div class="facts-section">
-
-        <h3>🔬 Real Facts</h3>
-
-        <ul>
-
-            <li>
-                Zebras are hoofed mammals belonging to the horse family, Equidae.
-            </li>
-
-            <li>
-                There are three living zebra species: plains zebra, mountain zebra and Grevy's zebra.
-            </li>
-
-            <li>
-                Every zebra has a unique stripe pattern, and no two zebras have exactly the same arrangement of stripes.
-            </li>
-
-            <li>
-                Zebras are herbivores and depend mainly on grasses and other plant material.
-            </li>
-
-            <li>
-                Zebras have strong legs and hooves that allow them to travel long distances across open landscapes.
-            </li>
-
-            <li>
-                They have excellent hearing and eyesight, which help them detect predators.
-            </li>
-
-            <li>
-                Zebras are closely related to horses and donkeys but have evolved their own distinct characteristics.
-            </li>
-
-            <li>
-                Zebras play an important role in grassland ecosystems by grazing on vegetation and helping shape plant communities.
-            </li>
-
-        </ul>
-
-    </div>
-
-
-    <div class="facts-section">
-
-        <h3>🌍 Habitat & Lifestyle</h3>
-
-        <ul>
-
-            <li>
-                Zebras are native to Africa and live in habitats such as grasslands, savannas, woodlands and mountainous regions.
-            </li>
-
-            <li>
-                Plains zebras are commonly found across open grasslands and savannas.
-            </li>
-
-            <li>
-                Mountain zebras are adapted to rocky and mountainous environments.
-            </li>
-
-            <li>
-                Grevy's zebras are associated with drier grasslands and semi-arid areas.
-            </li>
-
-            <li>
-                Zebras often live in groups, which can provide safety through collective vigilance.
-            </li>
-
-            <li>
-                Members of a group can alert one another when predators are nearby.
-            </li>
-
-            <li>
-                Zebras may travel long distances in search of fresh grass and water.
-            </li>
-
-            <li>
-                Their survival is closely connected to healthy grasslands and access to water.
-            </li>
-
-        </ul>
-
-    </div>
-
-
-    <div class="facts-section">
-
-        <h3>🌿 Food & Feeding</h3>
-
-        <ul>
-
-            <li>
-                Zebras are herbivores and mainly eat grasses.
-            </li>
-
-            <li>
-                They may also feed on leaves, shoots, bark and other plant material when available.
-            </li>
-
-            <li>
-                Zebras spend a large part of their day grazing because grass provides relatively low energy compared with many concentrated foods.
-            </li>
-
-            <li>
-                Their strong front teeth help them bite and cut grasses close to the ground.
-            </li>
-
-            <li>
-                Their molar teeth are adapted for grinding tough plant material.
-            </li>
-
-            <li>
-                Zebras can move to new grazing areas when local food becomes limited.
-            </li>
-
-            <li>
-                Access to water is especially important in dry environments.
-            </li>
-
-            <li>
-                Their grazing behaviour can influence the growth and structure of grassland vegetation.
-            </li>
-
-        </ul>
-
-    </div>
-
-
-    <div class="facts-section">
-
-        <h3>🧠 Behaviour & Social Life</h3>
-
-        <ul>
-
-            <li>
-                Zebras are social animals and many species live in groups.
-            </li>
-
-            <li>
-                Staying together can make it easier for individuals to notice predators approaching.
-            </li>
-
-            <li>
-                Zebras communicate using sounds, facial expressions, ear movements and body posture.
-            </li>
-
-            <li>
-                They can make sounds including barks, brays and squeals.
-            </li>
-
-            <li>
-                Young foals learn important behaviours by following their mothers and other members of the group.
-            </li>
-
-            <li>
-                Zebras can recognise individual members of their social group.
-            </li>
-
-            <li>
-                They may groom one another, which can help strengthen social relationships.
-            </li>
-
-            <li>
-                When threatened, zebras can run together and use their speed and kicking ability to escape predators.
-            </li>
-
-        </ul>
-
-    </div>
-
-
-    <div class="facts-section">
-
-        <h3>😂 Fun Facts</h3>
-
-        <ul>
-
-            <li>
-                Zebra stripes are not simply decorative; scientists have proposed several possible functions for the pattern.
-            </li>
-
-            <li>
-                The stripe pattern of each zebra is unique, making individuals visually distinguishable.
-            </li>
-
-            <li>
-                Zebra foals are born with their own stripe patterns.
-            </li>
-
-            <li>
-                Zebras can sleep while standing and may also lie down when conditions are safe.
-            </li>
-
-            <li>
-                Their ears can move in different directions to detect sounds from their surroundings.
-            </li>
-
-            <li>
-                Zebras can run quickly and make sudden changes in direction when escaping predators.
-            </li>
-
-            <li>
-                A zebra's powerful hind legs can deliver strong kicks when it is threatened.
-            </li>
-
-            <li>
-                Zebras can travel long distances during seasonal movements in search of food and water.
-            </li>
-
-        </ul>
-
-    </div>
-
-
-    <div class="facts-section">
-
-        <h3>❤️ Lifespan, Size & Special Ability</h3>
-
-        <ul>
-
-            <li>
-                Zebras can commonly live around 20 years in the wild, although lifespan varies by species and individual.
-            </li>
-
-            <li>
-                Different zebra species vary considerably in body size and appearance.
-            </li>
-
-            <li>
-                Grevy's zebra is the largest living zebra species.
-            </li>
-
-            <li>
-                Zebras have strong legs that allow them to run quickly across open terrain.
-            </li>
-
-            <li>
-                Their hard hooves help protect their feet while travelling over rough ground.
-            </li>
-
-            <li>
-                Their excellent hearing and eyesight help them detect danger early.
-            </li>
-
-            <li>
-                Their strong hind legs provide an effective defensive weapon against predators.
-            </li>
-
-            <li>
-                Their combination of speed, social behaviour, alert senses and distinctive stripe patterns helps them survive in African grasslands.
-            </li>
-
-        </ul>
-
-    </div>
-
-</section>
-<!-- ===================================================== -->
-<!-- GIRAFFE -->
-<!-- ===================================================== -->
-
-<section class="animal">
-
-    <h2>🦒 Giraffe</h2>
-
-    <img
-        src="giraffe.jpg.jpeg"
-        alt="Giraffe"
-        class="animal-image"
-    >
-
-    <div class="facts-section">
-
-        <h3>🔬 Real Facts</h3>
-
-        <ul>
-
-            <li>
-                Giraffes are the tallest living land animals on Earth.
-            </li>
-
-            <li>
-                Their extremely long necks and legs allow them to reach vegetation high above the ground.
-            </li>
-
-            <li>
-                Despite their long necks, giraffes have only seven cervical vertebrae, the same basic number found in most mammals.
-            </li>
-
-            <li>
-                Every giraffe has a unique coat pattern that can help researchers identify individuals.
-            </li>
-
-            <li>
-                Giraffes have long, flexible tongues that help them collect leaves from branches.
-            </li>
-
-            <li>
-                Their hearts are powerful and specialised to pump blood effectively through their tall bodies.
-            </li>
-
-            <li>
-                Giraffes have excellent eyesight and can use their height to observe large areas of their surroundings.
-            </li>
-
-            <li>
-                Despite their tall and unusual body shape, giraffes can run surprisingly fast when threatened.
-            </li>
-
-        </ul>
-
-    </div>
-
-
-    <div class="facts-section">
-
-        <h3>🌍 Habitat & Lifestyle</h3>
-
-        <ul>
-
-            <li>
-                Giraffes are native to Africa and live in several different regions of the continent.
-            </li>
-
-            <li>
-                They commonly inhabit savannas, grasslands, open woodlands and areas with scattered trees.
-            </li>
-
-            <li>
-                Different giraffe populations can have noticeably different coat patterns.
-            </li>
-
-            <li>
-                Giraffes may move between feeding areas depending on the availability of vegetation.
-            </li>
-
-            <li>
-                They often live in loose social groups rather than permanent, tightly organised herds.
-            </li>
-
-            <li>
-                Young giraffes usually stay close to their mothers during their early development.
-            </li>
-
-            <li>
-                Giraffes spend a large part of their day feeding because leaves provide relatively low energy compared with some other foods.
-            </li>
-
-            <li>
-                Their great height allows them to reach vegetation that many other grazing animals cannot easily access.
-            </li>
-
-        </ul>
-
-    </div>
-
-
-    <div class="facts-section">
-
-        <h3>🍃 Food & Feeding</h3>
-
-        <ul>
-
-            <li>
-                Giraffes are herbivores and mainly feed on leaves, shoots and other plant material.
-            </li>
-
-            <li>
-                They mainly eat leaves from trees and shrubs.
-            </li>
-
-            <li>
-                Acacia leaves are an important food source for giraffes in many African habitats.
-            </li>
-
-            <li>
-                Giraffes use their long, flexible tongues to pull leaves from branches.
-            </li>
-
-            <li>
-                Their lips are well adapted for selecting leaves among branches and thorns.
-            </li>
-
-            <li>
-                They can browse at heights that many other herbivores cannot easily reach.
-            </li>
-
-            <li>
-                Giraffes chew their food and process it through a specialised ruminant digestive system.
-            </li>
-
-            <li>
-                They can obtain some of the water they need from the plants they eat, although they also drink water when it is available.
-            </li>
-
-        </ul>
-
-    </div>
-
-
-    <div class="facts-section">
-
-        <h3>🧠 Behaviour & Lifestyle</h3>
-
-        <ul>
-
-            <li>
-                Giraffes are generally peaceful animals and spend much of their time feeding, walking and resting.
-            </li>
-
-            <li>
-                They can form loose groups in which individuals may join or leave over time.
-            </li>
-
-            <li>
-                Mother giraffes stay close to their calves and protect them from potential dangers.
-            </li>
-
-            <li>
-                Young giraffes learn about their environment by following and observing their mothers.
-            </li>
-
-            <li>
-                Adult males may compete with one another using a behaviour called necking.
-            </li>
-
-            <li>
-                During necking, males swing their necks against one another using their heads and horns.
-            </li>
-
-            <li>
-                Giraffes communicate through body movements, sounds and other subtle behaviours.
-            </li>
-
-            <li>
-                Their height allows them to keep watch over large areas while feeding in open habitats.
-            </li>
-
-        </ul>
-
-    </div>
-
-
-    <div class="facts-section">
-
-        <h3>😂 Fun Facts</h3>
-
-        <ul>
-
-            <li>
-                A giraffe's tongue can be roughly 45 to 50 centimetres long.
-            </li>
-
-            <li>
-                Their tongues are often darkly pigmented, which may help protect them from strong sunlight.
-            </li>
-
-            <li>
-                Giraffes can reach leaves high above the ground without climbing.
-            </li>
-
-            <li>
-                Baby giraffes can stand and walk within a relatively short time after birth.
-            </li>
-
-            <li>
-                Giraffes often sleep for short periods and may rest while standing or lying down.
-            </li>
-
-            <li>
-                Male giraffes may use their long necks during competitions with other males.
-            </li>
-
-            <li>
-                Each giraffe has a distinctive coat pattern, making individuals visually different from one another.
-            </li>
-
-            <li>
-                Their extraordinary height gives them an excellent view over open landscapes.
-            </li>
-
-        </ul>
-
-    </div>
-
-
-    <div class="facts-section">
-
-        <h3>❤️ Lifespan, Size & Special Ability</h3>
-
-        <ul>
-
-            <li>
-                Giraffes can live around 20 to 25 years in the wild, although lifespan varies among individuals.
-            </li>
-
-            <li>
-                Adult giraffes can reach roughly 4 to 6 metres in height.
-            </li>
-
-            <li>
-                Male giraffes are generally taller and heavier than females.
-            </li>
-
-            <li>
-                Their long legs allow them to cover large areas while searching for food.
-            </li>
-
-            <li>
-                A giraffe's heart is adapted to pump blood upward toward its brain.
-            </li>
-
-            <li>
-                Special blood vessels and valves help regulate blood flow when the giraffe lowers or raises its head.
-            </li>
-
-            <li>
-                Their great height gives them a wide view of the surrounding landscape.
-            </li>
-
-            <li>
-                Their combination of height, long tongue, specialised circulation and strong legs makes them one of the most distinctive mammals on Earth.
-            </li>
-
-        </ul>
-
-    </div>
-
-</section>
-
-
-
-<!-- ===================================================== -->
-<!-- MONKEY -->
-<!-- ===================================================== -->
-
-<section class="animal">
-
-    <h2>🐒 Monkey</h2>
-
-    <img
-        src="monkey.jpg.jpeg"
-        alt="Monkey"
-        class="animal-image"
-    >
-
-    <div class="facts-section">
-
-        <h3>🔬 Real Facts</h3>
-
-        <ul>
-
-            <li>
-                Monkeys are primates and are closely related to apes and humans.
-            </li>
-
-            <li>
-                There are many different monkey species, and they can vary greatly in size, appearance and behaviour.
-            </li>
-
-            <li>
-                Monkeys are divided broadly into Old World monkeys and New World monkeys.
-            </li>
-
-            <li>
-                They have highly developed eyes and brains that help them navigate complex environments.
-            </li>
-
-            <li>
-                Many monkey species have hands and feet adapted for gripping branches and climbing.
-            </li>
-
-            <li>
-                Some New World monkeys have prehensile tails that can help them hold branches.
-            </li>
-
-            <li>
-                Monkeys can learn through observation and experience and may use objects as tools in some species.
-            </li>
-
-            <li>
-                Many monkey species are highly social and live in groups with complex relationships.
-            </li>
-
-        </ul>
-
-    </div>
-
-
-    <div class="facts-section">
-
-        <h3>🌍 Habitat & Lifestyle</h3>
-
-        <ul>
-
-            <li>
-                Monkeys live in many parts of the world, especially tropical and subtropical regions.
-            </li>
-
-            <li>
-                Many species live in rainforests, where trees provide food, shelter and routes for movement.
-            </li>
-
-            <li>
-                Some monkeys also live in grasslands, mountains, mangrove forests and dry woodland environments.
-            </li>
-
-            <li>
-                Arboreal species spend much of their time in trees, while other species spend more time on the ground.
-            </li>
-
-            <li>
-                Social groups can contain several individuals or much larger communities depending on the species.
-            </li>
-
-            <li>
-                Group living can help monkeys find food, care for young and detect predators.
-            </li>
-
-            <li>
-                Young monkeys often learn important behaviours by watching older members of their group.
-            </li>
-
-            <li>
-                Their ability to adapt to different habitats has helped many monkey species survive in varied environments.
-            </li>
-
-        </ul>
-
-    </div>
-
-
-    <div class="facts-section">
-
-        <h3>🍌 Food & Feeding</h3>
-
-        <ul>
-
-            <li>
-                Monkey diets vary greatly between species and habitats.
-            </li>
-
-            <li>
-                Many monkeys eat fruits, leaves, seeds, flowers and other plant material.
-            </li>
-
-            <li>
-                Some species also eat insects, eggs and small animals when these foods are available.
-            </li>
-
-            <li>
-                Monkeys use their hands and fingers to pick, hold and manipulate food.
-            </li>
-
-            <li>
-                Their strong teeth help them process fruits, leaves, seeds and other foods.
-            </li>
-
-            <li>
-                Some monkeys search through tree branches and forest vegetation for insects and other small food items.
-            </li>
-
-            <li>
-                Their feeding behaviour can help spread seeds through the ecosystems where they live.
-            </li>
-
-            <li>
-                Food availability can change with seasons, so monkeys may change their feeding patterns throughout the year.
-            </li>
-
-        </ul>
-
-    </div>
-
-
-    <div class="facts-section">
-
-        <h3>🧠 Behaviour & Social Life</h3>
-
-        <ul>
-
-            <li>
-                Many monkey species live in organised social groups with relationships between different individuals.
-            </li>
-
-            <li>
-                Grooming is an important social behaviour that can help strengthen relationships between group members.
-            </li>
-
-            <li>
-                Monkeys communicate using calls, facial expressions, body movements and physical contact.
-            </li>
-
-            <li>
-                Different warning calls can help group members respond to potential dangers.
-            </li>
-
-            <li>
-                Young monkeys learn many skills by watching their mothers and other adults.
-            </li>
-
-            <li>
-                Some monkey species cooperate when searching for food or responding to predators.
-            </li>
-
-            <li>
-                Certain monkeys have been observed using simple tools or objects to obtain food.
-            </li>
-
-            <li>
-                Their intelligence and social learning abilities allow them to adapt their behaviour to changing situations.
-            </li>
-
-        </ul>
-
-    </div>
-
-
-    <div class="facts-section">
-
-        <h3>😂 Fun Facts</h3>
-
-        <ul>
-
-            <li>
-                Some monkeys can use their tails almost like an extra hand when moving through trees.
-            </li>
-
-            <li>
-                Not all monkeys have prehensile tails; this feature is found mainly in certain New World monkey species.
-            </li>
-
-            <li>
-                Monkeys can make many different sounds to communicate with members of their group.
-            </li>
-
-            <li>
-                Young monkeys often spend a lot of time playing, which helps develop movement and social skills.
-            </li>
-
-            <li>
-                Some monkey species are excellent climbers and can move rapidly between branches.
-            </li>
-
-            <li>
-                Their hands are capable of precise movements that help them handle food and objects.
-            </li>
-
-            <li>
-                Some monkeys can remember locations where they previously found food.
-            </li>
-
-            <li>
-                Different monkey species can have very different colours, body shapes and facial features.
-            </li>
-
-        </ul>
-
-    </div>
-
-
-    <div class="facts-section">
-
-        <h3>❤️ Lifespan, Size & Special Ability</h3>
-
-        <ul>
-
-            <li>
-                Monkey lifespan varies greatly depending on the species, with some species living 15 to 30 years or more.
-            </li>
-
-            <li>
-                Monkey body size ranges from very small species to much larger monkeys.
-            </li>
-
-            <li>
-                Their flexible limbs help many species climb, jump and move through trees.
-            </li>
-
-            <li>
-                Their hands and fingers provide excellent control when gripping branches and handling food.
-            </li>
-
-            <li>
-                Some New World monkeys have prehensile tails that provide additional support while climbing.
-            </li>
-
-            <li>
-                Their large and well-developed brains support learning, memory and problem-solving abilities.
-            </li>
-
-            <li>
-                Their strong social communication helps groups coordinate their behaviour and respond to danger.
-            </li>
-
-            <li>
-                Their combination of agility, intelligence, dexterity and social learning makes monkeys highly adaptable primates.
-            </li>
-
-        </ul>
-
-    </div>
-
-</section>
 </body>
 </html>
